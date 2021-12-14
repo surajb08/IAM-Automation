@@ -1,0 +1,17 @@
+---
+admin: &pe
+  - role0
+  - role5
+
+guest:
+  - &guest role100
+
+bauser: &ba
+  - role1
+  - role2
+  - *guest
+
+peuser:
+  - *ba
+  - *pe
+  # - *guest
