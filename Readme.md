@@ -5,7 +5,7 @@ Please follow steps mentioned [here](https://registry.terraform.io/providers/has
 
 
 ## Best Practices
-- Use Backend to store terraform state file following (here)[https://www.terraform.io/docs/language/settings/backends/configuration.html]
+- Use Backend to store terraform state file following [here](https://www.terraform.io/docs/language/settings/backends/configuration.html)
 OR
 - Use [Terraform Cloud](https://www.terraform.io/cloud) for managed execution.
 
@@ -24,8 +24,9 @@ You can use Sentinel with Terraform cloud as here,
 
 <img src="https://www.datocms-assets.com/2885/1566497760-tf-withsentinel.png?fit=max&q=80&w=1500" alt="with sentinel" width="400px"/>
 
-[Getting Started with Sentinel in Terraform Cloud](https://www.hashicorp.com/blog/terraform-learn-getting-started-with-sentinel-in-terraform-cloud)
+#### [Getting Started with Sentinel in Terraform Cloud](https://www.hashicorp.com/blog/terraform-learn-getting-started-with-sentinel-in-terraform-cloud)
 
+</br>
 
 ## Providers
 
