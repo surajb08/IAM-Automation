@@ -4,8 +4,8 @@ resource "google_project_iam_member" "access" {
     for_each = local.user_roles
 
     project = var.project_id
-    role    = each.value.role
-    member  = "user:${each.value.emailid}"
+    role    = split("=>",each.value)[1]
+    member  = "user:${split("=>",each.value)[0]}"
 
     # Condition created to expire the access in 15 days.
     # Remove/Comment following block to remove condition.

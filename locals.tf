@@ -5,7 +5,7 @@ locals {
     user_roles = toset(flatten([
         for emailid, roles in local.data:
         [
-            [for role in flatten(roles): { "emailid" = "${emailid}", "role" = role } ]
+            [for role in flatten(roles): join("=>", [emailid, role]) ]
         ]
     ]))
 
