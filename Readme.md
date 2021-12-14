@@ -51,7 +51,7 @@ You can use Sentinel with Terraform cloud as here,
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | Project ID in which the access will be provided | `String` | n/a | yes |
-| <a name="input_yamlfile"></a> [yamlfile](#input\_yamlfile) | Path to yaml file having user access defined (Must be present) | `String` | "user\_access.yaml" | no |
+| <a name="input_yamlfile"></a> [yamlfile](#input\_yamlfile) | Path to yaml file having user access defined (Must be present) | `String` | "user\_access.yml" | no |
 
 
 ## Outputs
