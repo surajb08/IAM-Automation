@@ -8,6 +8,7 @@ Please follow steps mentioned [here](https://registry.terraform.io/providers/has
 - Use Backend to store terraform state file following [here](https://www.terraform.io/docs/language/settings/backends/configuration.html)
 OR
 - Use [Terraform Cloud](https://www.terraform.io/cloud) for managed execution.
+To use this, need to [set creadentials](https://www.terraform.io/docs/language/settings/backends/gcs.html#configuration-variables) as discussed here.
 
 
 ## Steps to Follow
@@ -15,7 +16,7 @@ Here are the steps to follow:
 
 <img src="https://www.datocms-assets.com/2885/1566497750-tf-withoutsentinel.png?fit=max&q=80&w=1500" alt="Basic steps without sentinel" width="400px"/>
 
-- `terrform init` - This will initialize the terraform and the modules at first.
+- `terraform init` - This will initialize the terraform and the modules at first.
 - `terraform plan` - This will plan the execution steps
 - `terraform apply` - This will apply the plan execution.
 - `terraform destroy` - This won't be required much but for final destroy.
